@@ -1,16 +1,14 @@
-<img src="/zoe-profile.jpeg" alt="My photo" width="300">
-<div className="flex items-center gap-4">
-              <img
-                src="/zoe-profile.jpeg"
-                alt="Portrait of Zoe"
-                className="h-14 w-14 rounded-full border border-ink/20 object-cover object-center shadow-sm"
-              />
-            <p className="text-label font-mono text-bark flex items-center gap-3 uppercase">
-              <span className="bg-bark/50 h-px w-8" />
-              Est. 2019 — Small batch
-            </p>
-              <p className="text-label font-mono text-bark flex items-center gap-3 uppercase">
-                <span className="bg-bark/50 h-px w-8" />
-                Est. 2019 — Small batch
-              </p>
-            </div>
+<a
+  href="https://www.linkedin.com/in/YOUR-LINKEDIN-USERNAME/"
+  target="_blank"
+  rel="noreferrer"
+  aria-label="Visit my LinkedIn profile"
+  className="inline-flex items-center gap-3"
+>
+  <img
+    src="/zoe-profile.jpeg"
+    alt="Portrait of Zoe"
+    className="h-14 w-14 rounded-full object-cover"
+  />
+  <span>Connect with me on LinkedIn</span>
+</a>
